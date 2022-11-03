@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container {
+    background-color: antiquewhite;
+    max-width: 768px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  
+}
+.container .title{
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.container #form{
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    gap: 15px;
+  
+}
+.container #form input{
+    padding: 10px 20px;
+    flex: 1;
+}
+.container #form button{
+    padding: 10px 20px;
+    background-color: #26D0CE;
+    border: none;
+    cursor: pointer;
+}
+.container #form button:hover{
+    background-color: black;
+    color: #fff;
+}
+.todo-container{
+    background-color: #fff;
+    max-width: 768px;
+    margin: 0 auto;
+
+
+}
+.todo-container .item{
+    padding: 10px 20px;
+    border-bottom: 1px solid #26D0CE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-container .item h2{
+  font-size: 20px;
+}
+.todo-container .item .fa-trash-can{
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+   
+}
